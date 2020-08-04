@@ -10,3 +10,4 @@ def lambda_handler(event, context):
         },
         'body': json.dumps({'message': 'Hello-OK'})
     }
+    # This is a comment by Gregory from ZiyoTek
