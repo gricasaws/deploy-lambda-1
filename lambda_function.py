@@ -1,6 +1,5 @@
 import json
 
-
 def lambda_handler(event, context):
     print(json.dumps(event))
     return {
@@ -8,6 +7,6 @@ def lambda_handler(event, context):
         'headers': {
             'Content-Type': 'application/json'
         },
-        'body': json.dumps({'message': 'Hello-OK'})
-    }
     # This is a comment by Gregory from ZiyoTek
+        'body': json.dumps({'message': 'OK-Tested'})
+    }
