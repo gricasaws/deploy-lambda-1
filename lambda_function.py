@@ -7,6 +7,6 @@ def lambda_handler(event, context):
         'headers': {
             'Content-Type': 'application/json'
         },
-    # This is a comment by Gregory from ZiyoTek
+    # This is a comment
         'body': json.dumps({'message': 'OK-Tested'})
     }
